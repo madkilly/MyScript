@@ -1,0 +1,516 @@
+31-Aug-2016 09:57:05.242 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '1000' did not find a matching property.
+31-Aug-2016 09:57:05.245 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'minProcessors' to '100' did not find a matching property.
+31-Aug-2016 09:57:05.245 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxProcessors' to '1000' did not find a matching property.
+31-Aug-2016 09:57:05.529 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+31-Aug-2016 09:57:05.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.28
+31-Aug-2016 09:57:05.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2015 18:25:21 UTC
+31-Aug-2016 09:57:05.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.28.0
+31-Aug-2016 09:57:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Aug-2016 09:57:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-123.el7.x86_64
+31-Aug-2016 09:57:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Aug-2016 09:57:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+31-Aug-2016 09:57:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b14
+31-Aug-2016 09:57:05.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Aug-2016 09:57:05.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /data/apache-tomcat-8.0.28
+31-Aug-2016 09:57:05.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /data/apache-tomcat-8.0.28
+31-Aug-2016 09:57:05.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/data/apache-tomcat-8.0.28/conf/logging.properties
+31-Aug-2016 09:57:05.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2016 09:57:05.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+31-Aug-2016 09:57:05.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+31-Aug-2016 09:57:05.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=512M
+31-Aug-2016 09:57:05.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512M
+31-Aug-2016 09:57:05.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=GMT+08
+31-Aug-2016 09:57:05.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/data/apache-tomcat-8.0.28/endorsed
+31-Aug-2016 09:57:05.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/data/apache-tomcat-8.0.28
+31-Aug-2016 09:57:05.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/data/apache-tomcat-8.0.28
+31-Aug-2016 09:57:05.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/data/apache-tomcat-8.0.28/temp
+31-Aug-2016 09:57:05.552 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+31-Aug-2016 09:57:07.171 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-31704"]
+31-Aug-2016 09:57:07.369 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 09:57:07.379 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-31706"]
+31-Aug-2016 09:57:07.384 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 09:57:07.385 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3777 ms
+31-Aug-2016 09:57:07.630 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Aug-2016 09:57:07.630 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.28
+31-Aug-2016 09:57:32.496 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = mytest Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "500" for "maxWait" property, which is being ignored.
+31-Aug-2016 09:57:35.855 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2016 09:57:52.257 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,729] milliseconds.
+31-Aug-2016 10:04:14.952 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-31704"]
+31-Aug-2016 10:04:15.011 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-31706"]
+31-Aug-2016 10:04:15.015 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 427629 ms
+31-Aug-2016 10:12:39.326 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '1000' did not find a matching property.
+31-Aug-2016 10:12:39.330 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'minProcessors' to '100' did not find a matching property.
+31-Aug-2016 10:12:39.330 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxProcessors' to '1000' did not find a matching property.
+31-Aug-2016 10:12:39.466 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+31-Aug-2016 10:12:39.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.28
+31-Aug-2016 10:12:39.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2015 18:25:21 UTC
+31-Aug-2016 10:12:39.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.28.0
+31-Aug-2016 10:12:39.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Aug-2016 10:12:39.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-123.el7.x86_64
+31-Aug-2016 10:12:39.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Aug-2016 10:12:39.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+31-Aug-2016 10:12:39.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b14
+31-Aug-2016 10:12:39.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Aug-2016 10:12:39.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /data/apache-tomcat-8.0.28
+31-Aug-2016 10:12:39.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /data/apache-tomcat-8.0.28
+31-Aug-2016 10:12:39.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/data/apache-tomcat-8.0.28/conf/logging.properties
+31-Aug-2016 10:12:39.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2016 10:12:39.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+31-Aug-2016 10:12:39.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+31-Aug-2016 10:12:39.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=512M
+31-Aug-2016 10:12:39.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512M
+31-Aug-2016 10:12:39.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=GMT+08
+31-Aug-2016 10:12:39.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/data/apache-tomcat-8.0.28/endorsed
+31-Aug-2016 10:12:39.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/data/apache-tomcat-8.0.28
+31-Aug-2016 10:12:39.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/data/apache-tomcat-8.0.28
+31-Aug-2016 10:12:39.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/data/apache-tomcat-8.0.28/temp
+31-Aug-2016 10:12:39.487 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+31-Aug-2016 10:12:40.594 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-31666"]
+31-Aug-2016 10:12:40.655 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 10:12:40.660 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-31668"]
+31-Aug-2016 10:12:40.663 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 10:12:40.664 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3788 ms
+31-Aug-2016 10:12:40.734 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Aug-2016 10:12:40.734 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.28
+31-Aug-2016 10:12:57.231 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = mytest Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "500" for "maxWait" property, which is being ignored.
+31-Aug-2016 10:12:58.261 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2016 10:13:42.665 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-31666"]
+31-Aug-2016 10:13:42.685 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-31668"]
+31-Aug-2016 10:13:42.688 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 62023 ms
+31-Aug-2016 10:25:50.914 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '1000' did not find a matching property.
+31-Aug-2016 10:25:50.917 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'minProcessors' to '100' did not find a matching property.
+31-Aug-2016 10:25:50.917 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxProcessors' to '1000' did not find a matching property.
+31-Aug-2016 10:25:51.057 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+31-Aug-2016 10:25:51.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.28
+31-Aug-2016 10:25:51.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2015 18:25:21 UTC
+31-Aug-2016 10:25:51.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.28.0
+31-Aug-2016 10:25:51.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Aug-2016 10:25:51.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-123.el7.x86_64
+31-Aug-2016 10:25:51.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Aug-2016 10:25:51.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+31-Aug-2016 10:25:51.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b14
+31-Aug-2016 10:25:51.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Aug-2016 10:25:51.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /data/apache-tomcat-8.0.28
+31-Aug-2016 10:25:51.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /data/apache-tomcat-8.0.28
+31-Aug-2016 10:25:51.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/data/apache-tomcat-8.0.28/conf/logging.properties
+31-Aug-2016 10:25:51.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2016 10:25:51.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+31-Aug-2016 10:25:51.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+31-Aug-2016 10:25:51.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=512M
+31-Aug-2016 10:25:51.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512M
+31-Aug-2016 10:25:51.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=GMT+08
+31-Aug-2016 10:25:51.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/data/apache-tomcat-8.0.28/endorsed
+31-Aug-2016 10:25:51.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/data/apache-tomcat-8.0.28
+31-Aug-2016 10:25:51.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/data/apache-tomcat-8.0.28
+31-Aug-2016 10:25:51.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/data/apache-tomcat-8.0.28/temp
+31-Aug-2016 10:25:51.081 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+31-Aug-2016 10:25:52.943 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-31772"]
+31-Aug-2016 10:25:53.015 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 10:25:53.020 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-31774"]
+31-Aug-2016 10:25:53.024 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 10:25:53.024 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3482 ms
+31-Aug-2016 10:25:53.085 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Aug-2016 10:25:53.085 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.28
+31-Aug-2016 10:26:05.805 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = mytest Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "500" for "maxWait" property, which is being ignored.
+31-Aug-2016 10:26:06.811 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2016 10:26:11.852 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [126] milliseconds.
+31-Aug-2016 10:26:19.842 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-31772"]
+31-Aug-2016 10:26:19.858 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-31774"]
+31-Aug-2016 10:26:19.860 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 26835 ms
+31-Aug-2016 10:35:26.489 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '1000' did not find a matching property.
+31-Aug-2016 10:35:26.493 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'minProcessors' to '100' did not find a matching property.
+31-Aug-2016 10:35:26.493 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxProcessors' to '1000' did not find a matching property.
+31-Aug-2016 10:35:26.670 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+31-Aug-2016 10:35:26.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.28
+31-Aug-2016 10:35:26.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2015 18:25:21 UTC
+31-Aug-2016 10:35:26.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.28.0
+31-Aug-2016 10:35:26.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Aug-2016 10:35:26.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-123.el7.x86_64
+31-Aug-2016 10:35:26.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Aug-2016 10:35:26.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+31-Aug-2016 10:35:26.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b14
+31-Aug-2016 10:35:26.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Aug-2016 10:35:26.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /data/apache-tomcat-8.0.28
+31-Aug-2016 10:35:26.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /data/apache-tomcat-8.0.28
+31-Aug-2016 10:35:26.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/data/apache-tomcat-8.0.28/conf/logging.properties
+31-Aug-2016 10:35:26.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2016 10:35:26.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+31-Aug-2016 10:35:26.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+31-Aug-2016 10:35:26.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=512M
+31-Aug-2016 10:35:26.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512M
+31-Aug-2016 10:35:26.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=GMT+08
+31-Aug-2016 10:35:26.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/data/apache-tomcat-8.0.28/endorsed
+31-Aug-2016 10:35:26.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/data/apache-tomcat-8.0.28
+31-Aug-2016 10:35:26.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/data/apache-tomcat-8.0.28
+31-Aug-2016 10:35:26.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/data/apache-tomcat-8.0.28/temp
+31-Aug-2016 10:35:26.707 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+31-Aug-2016 10:35:28.328 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-31643"]
+31-Aug-2016 10:35:28.393 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 10:35:28.398 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-31645"]
+31-Aug-2016 10:35:28.402 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 10:35:28.402 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 6324 ms
+31-Aug-2016 10:35:28.483 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Aug-2016 10:35:28.483 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.28
+31-Aug-2016 10:35:45.929 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = mytest Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "500" for "maxWait" property, which is being ignored.
+31-Aug-2016 10:35:47.161 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2016 10:36:05.097 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-31643"]
+31-Aug-2016 10:36:05.145 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-31645"]
+31-Aug-2016 10:36:05.148 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 36745 ms
+31-Aug-2016 10:47:05.689 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '1000' did not find a matching property.
+31-Aug-2016 10:47:05.692 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'minProcessors' to '100' did not find a matching property.
+31-Aug-2016 10:47:05.692 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxProcessors' to '1000' did not find a matching property.
+31-Aug-2016 10:47:05.845 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+31-Aug-2016 10:47:05.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.28
+31-Aug-2016 10:47:05.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2015 18:25:21 UTC
+31-Aug-2016 10:47:05.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.28.0
+31-Aug-2016 10:47:05.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Aug-2016 10:47:05.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-123.el7.x86_64
+31-Aug-2016 10:47:05.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Aug-2016 10:47:05.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+31-Aug-2016 10:47:05.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b14
+31-Aug-2016 10:47:05.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Aug-2016 10:47:05.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /data/apache-tomcat-8.0.28
+31-Aug-2016 10:47:05.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /data/apache-tomcat-8.0.28
+31-Aug-2016 10:47:05.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/data/apache-tomcat-8.0.28/conf/logging.properties
+31-Aug-2016 10:47:05.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2016 10:47:05.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+31-Aug-2016 10:47:05.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+31-Aug-2016 10:47:05.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=512M
+31-Aug-2016 10:47:05.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512M
+31-Aug-2016 10:47:05.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=GMT+08
+31-Aug-2016 10:47:05.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/data/apache-tomcat-8.0.28/endorsed
+31-Aug-2016 10:47:05.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/data/apache-tomcat-8.0.28
+31-Aug-2016 10:47:05.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/data/apache-tomcat-8.0.28
+31-Aug-2016 10:47:05.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/data/apache-tomcat-8.0.28/temp
+31-Aug-2016 10:47:05.869 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+31-Aug-2016 10:47:06.467 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-31044"]
+31-Aug-2016 10:47:06.526 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 10:47:06.531 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-31046"]
+31-Aug-2016 10:47:06.541 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 10:47:06.542 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2016 ms
+31-Aug-2016 10:47:06.611 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Aug-2016 10:47:06.612 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.28
+31-Aug-2016 10:47:30.342 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = mytest Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "500" for "maxWait" property, which is being ignored.
+31-Aug-2016 10:47:39.902 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2016 10:54:28.615 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [491] milliseconds.
+31-Aug-2016 10:54:39.927 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-31044"]
+31-Aug-2016 10:54:40.012 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-31046"]
+31-Aug-2016 10:54:40.015 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 453473 ms
+31-Aug-2016 11:24:17.998 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '1000' did not find a matching property.
+31-Aug-2016 11:24:18.001 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'minProcessors' to '100' did not find a matching property.
+31-Aug-2016 11:24:18.001 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxProcessors' to '1000' did not find a matching property.
+31-Aug-2016 11:24:18.145 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+31-Aug-2016 11:24:18.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.28
+31-Aug-2016 11:24:18.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2015 18:25:21 UTC
+31-Aug-2016 11:24:18.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.28.0
+31-Aug-2016 11:24:18.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Aug-2016 11:24:18.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-123.el7.x86_64
+31-Aug-2016 11:24:18.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Aug-2016 11:24:18.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+31-Aug-2016 11:24:18.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b14
+31-Aug-2016 11:24:18.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Aug-2016 11:24:18.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /data/apache-tomcat-8.0.28
+31-Aug-2016 11:24:18.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /data/apache-tomcat-8.0.28
+31-Aug-2016 11:24:18.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/data/apache-tomcat-8.0.28/conf/logging.properties
+31-Aug-2016 11:24:18.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2016 11:24:18.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+31-Aug-2016 11:24:18.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+31-Aug-2016 11:24:18.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=512M
+31-Aug-2016 11:24:18.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512M
+31-Aug-2016 11:24:18.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=GMT+08
+31-Aug-2016 11:24:18.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/data/apache-tomcat-8.0.28/endorsed
+31-Aug-2016 11:24:18.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/data/apache-tomcat-8.0.28
+31-Aug-2016 11:24:18.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/data/apache-tomcat-8.0.28
+31-Aug-2016 11:24:18.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/data/apache-tomcat-8.0.28/temp
+31-Aug-2016 11:24:18.169 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+31-Aug-2016 11:24:19.087 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-31138"]
+31-Aug-2016 11:24:19.151 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 11:24:19.156 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-31140"]
+31-Aug-2016 11:24:19.159 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 11:24:19.162 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2434 ms
+31-Aug-2016 11:24:19.227 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Aug-2016 11:24:19.227 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.28
+31-Aug-2016 11:24:32.574 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = mytest Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "500" for "maxWait" property, which is being ignored.
+31-Aug-2016 11:24:33.854 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2016 11:24:40.230 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [138] milliseconds.
+31-Aug-2016 11:24:49.619 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-31138"]
+31-Aug-2016 11:24:49.644 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-31140"]
+31-Aug-2016 11:24:49.645 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 30483 ms
+31-Aug-2016 14:00:52.483 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '1000' did not find a matching property.
+31-Aug-2016 14:00:52.485 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'minProcessors' to '100' did not find a matching property.
+31-Aug-2016 14:00:52.485 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxProcessors' to '1000' did not find a matching property.
+31-Aug-2016 14:00:52.633 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+31-Aug-2016 14:00:52.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.28
+31-Aug-2016 14:00:52.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2015 18:25:21 UTC
+31-Aug-2016 14:00:52.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.28.0
+31-Aug-2016 14:00:52.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Aug-2016 14:00:52.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-123.el7.x86_64
+31-Aug-2016 14:00:52.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Aug-2016 14:00:52.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+31-Aug-2016 14:00:52.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b14
+31-Aug-2016 14:00:52.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Aug-2016 14:00:52.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /data/apache-tomcat-8.0.28
+31-Aug-2016 14:00:52.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /data/apache-tomcat-8.0.28
+31-Aug-2016 14:00:52.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/data/apache-tomcat-8.0.28/conf/logging.properties
+31-Aug-2016 14:00:52.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2016 14:00:52.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+31-Aug-2016 14:00:52.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+31-Aug-2016 14:00:52.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=512M
+31-Aug-2016 14:00:52.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512M
+31-Aug-2016 14:00:52.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=GMT+08
+31-Aug-2016 14:00:52.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/data/apache-tomcat-8.0.28/endorsed
+31-Aug-2016 14:00:52.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/data/apache-tomcat-8.0.28
+31-Aug-2016 14:00:52.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/data/apache-tomcat-8.0.28
+31-Aug-2016 14:00:52.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/data/apache-tomcat-8.0.28/temp
+31-Aug-2016 14:00:52.664 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+31-Aug-2016 14:00:53.740 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-31687"]
+31-Aug-2016 14:00:54.025 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 14:00:54.036 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-31689"]
+31-Aug-2016 14:00:54.043 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 14:00:54.044 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3462 ms
+31-Aug-2016 14:00:54.120 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Aug-2016 14:00:54.120 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.28
+31-Aug-2016 14:08:43.594 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = mytest Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "500" for "maxWait" property, which is being ignored.
+31-Aug-2016 14:08:54.159 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2016 14:12:47.342 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [781] milliseconds.
+31-Aug-2016 14:13:19.753 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-31687"]
+31-Aug-2016 14:13:20.005 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-31689"]
+31-Aug-2016 14:13:20.278 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 746233 ms
+31-Aug-2016 14:39:37.791 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '1000' did not find a matching property.
+31-Aug-2016 14:39:37.794 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'minProcessors' to '100' did not find a matching property.
+31-Aug-2016 14:39:37.794 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxProcessors' to '1000' did not find a matching property.
+31-Aug-2016 14:39:37.952 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+31-Aug-2016 14:39:37.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.28
+31-Aug-2016 14:39:37.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2015 18:25:21 UTC
+31-Aug-2016 14:39:37.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.28.0
+31-Aug-2016 14:39:37.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Aug-2016 14:39:37.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-123.el7.x86_64
+31-Aug-2016 14:39:37.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Aug-2016 14:39:37.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+31-Aug-2016 14:39:37.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b14
+31-Aug-2016 14:39:37.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Aug-2016 14:39:37.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /data/apache-tomcat-8.0.28
+31-Aug-2016 14:39:37.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /data/apache-tomcat-8.0.28
+31-Aug-2016 14:39:37.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/data/apache-tomcat-8.0.28/conf/logging.properties
+31-Aug-2016 14:39:37.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2016 14:39:37.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+31-Aug-2016 14:39:37.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+31-Aug-2016 14:39:37.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=512M
+31-Aug-2016 14:39:37.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512M
+31-Aug-2016 14:39:37.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=GMT+08
+31-Aug-2016 14:39:37.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/data/apache-tomcat-8.0.28/endorsed
+31-Aug-2016 14:39:37.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/data/apache-tomcat-8.0.28
+31-Aug-2016 14:39:37.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/data/apache-tomcat-8.0.28
+31-Aug-2016 14:39:37.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/data/apache-tomcat-8.0.28/temp
+31-Aug-2016 14:39:37.974 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+31-Aug-2016 14:39:38.845 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-31978"]
+31-Aug-2016 14:39:39.304 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 14:39:39.313 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-31980"]
+31-Aug-2016 14:39:39.320 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 14:39:39.321 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3082 ms
+31-Aug-2016 14:39:39.662 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Aug-2016 14:39:39.663 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.28
+31-Aug-2016 14:39:50.628 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = mytest Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "500" for "maxWait" property, which is being ignored.
+31-Aug-2016 14:39:51.635 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2016 14:39:58.082 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [120] milliseconds.
+31-Aug-2016 14:40:05.811 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-31978"]
+31-Aug-2016 14:40:05.832 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-31980"]
+31-Aug-2016 14:40:05.834 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 26512 ms
+31-Aug-2016 14:48:27.162 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '1000' did not find a matching property.
+31-Aug-2016 14:48:27.165 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'minProcessors' to '100' did not find a matching property.
+31-Aug-2016 14:48:27.165 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxProcessors' to '1000' did not find a matching property.
+31-Aug-2016 14:48:27.328 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+31-Aug-2016 14:48:27.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.28
+31-Aug-2016 14:48:27.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2015 18:25:21 UTC
+31-Aug-2016 14:48:27.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.28.0
+31-Aug-2016 14:48:27.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Aug-2016 14:48:27.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-123.el7.x86_64
+31-Aug-2016 14:48:27.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Aug-2016 14:48:27.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+31-Aug-2016 14:48:27.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b14
+31-Aug-2016 14:48:27.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Aug-2016 14:48:27.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /data/apache-tomcat-8.0.28
+31-Aug-2016 14:48:27.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /data/apache-tomcat-8.0.28
+31-Aug-2016 14:48:27.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/data/apache-tomcat-8.0.28/conf/logging.properties
+31-Aug-2016 14:48:27.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2016 14:48:27.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+31-Aug-2016 14:48:27.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+31-Aug-2016 14:48:27.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=512M
+31-Aug-2016 14:48:27.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512M
+31-Aug-2016 14:48:27.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=GMT+08
+31-Aug-2016 14:48:27.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/data/apache-tomcat-8.0.28/endorsed
+31-Aug-2016 14:48:27.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/data/apache-tomcat-8.0.28
+31-Aug-2016 14:48:27.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/data/apache-tomcat-8.0.28
+31-Aug-2016 14:48:27.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/data/apache-tomcat-8.0.28/temp
+31-Aug-2016 14:48:27.351 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+31-Aug-2016 14:48:28.511 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-31369"]
+31-Aug-2016 14:48:28.596 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 14:48:28.603 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-31371"]
+31-Aug-2016 14:48:28.620 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 14:48:28.621 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3357 ms
+31-Aug-2016 14:48:28.706 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Aug-2016 14:48:28.706 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.28
+31-Aug-2016 14:48:40.177 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = mytest Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "500" for "maxWait" property, which is being ignored.
+31-Aug-2016 14:48:41.193 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2016 14:48:53.443 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-31369"]
+31-Aug-2016 14:48:53.452 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-31371"]
+31-Aug-2016 14:48:53.454 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 24832 ms
+31-Aug-2016 15:15:16.477 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '1000' did not find a matching property.
+31-Aug-2016 15:15:16.480 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'minProcessors' to '100' did not find a matching property.
+31-Aug-2016 15:15:16.480 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxProcessors' to '1000' did not find a matching property.
+31-Aug-2016 15:15:16.596 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+31-Aug-2016 15:15:16.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.28
+31-Aug-2016 15:15:16.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2015 18:25:21 UTC
+31-Aug-2016 15:15:16.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.28.0
+31-Aug-2016 15:15:16.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Aug-2016 15:15:16.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-123.el7.x86_64
+31-Aug-2016 15:15:16.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Aug-2016 15:15:16.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+31-Aug-2016 15:15:16.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b14
+31-Aug-2016 15:15:16.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Aug-2016 15:15:16.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /data/apache-tomcat-8.0.28
+31-Aug-2016 15:15:16.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /data/apache-tomcat-8.0.28
+31-Aug-2016 15:15:16.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/data/apache-tomcat-8.0.28/conf/logging.properties
+31-Aug-2016 15:15:16.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2016 15:15:16.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+31-Aug-2016 15:15:16.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+31-Aug-2016 15:15:16.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=512M
+31-Aug-2016 15:15:16.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512M
+31-Aug-2016 15:15:16.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=GMT+08
+31-Aug-2016 15:15:16.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/data/apache-tomcat-8.0.28/endorsed
+31-Aug-2016 15:15:16.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/data/apache-tomcat-8.0.28
+31-Aug-2016 15:15:16.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/data/apache-tomcat-8.0.28
+31-Aug-2016 15:15:16.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/data/apache-tomcat-8.0.28/temp
+31-Aug-2016 15:15:16.623 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+31-Aug-2016 15:15:16.850 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-31435"]
+31-Aug-2016 15:15:16.884 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 15:15:16.889 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-31437"]
+31-Aug-2016 15:15:16.892 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 15:15:16.892 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1116 ms
+31-Aug-2016 15:15:16.935 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Aug-2016 15:15:16.936 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.28
+31-Aug-2016 15:15:24.144 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = mytest Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "500" for "maxWait" property, which is being ignored.
+31-Aug-2016 15:15:25.095 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2016 15:15:36.290 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-31435"]
+31-Aug-2016 15:15:36.303 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-31437"]
+31-Aug-2016 15:15:36.304 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 19411 ms
+31-Aug-2016 15:31:05.893 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '1000' did not find a matching property.
+31-Aug-2016 15:31:05.896 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'minProcessors' to '100' did not find a matching property.
+31-Aug-2016 15:31:05.896 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxProcessors' to '1000' did not find a matching property.
+31-Aug-2016 15:31:06.020 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+31-Aug-2016 15:31:06.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.28
+31-Aug-2016 15:31:06.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2015 18:25:21 UTC
+31-Aug-2016 15:31:06.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.28.0
+31-Aug-2016 15:31:06.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Aug-2016 15:31:06.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-123.el7.x86_64
+31-Aug-2016 15:31:06.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Aug-2016 15:31:06.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+31-Aug-2016 15:31:06.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b14
+31-Aug-2016 15:31:06.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Aug-2016 15:31:06.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /data/apache-tomcat-8.0.28
+31-Aug-2016 15:31:06.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /data/apache-tomcat-8.0.28
+31-Aug-2016 15:31:06.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/data/apache-tomcat-8.0.28/conf/logging.properties
+31-Aug-2016 15:31:06.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2016 15:31:06.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+31-Aug-2016 15:31:06.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+31-Aug-2016 15:31:06.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=512M
+31-Aug-2016 15:31:06.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512M
+31-Aug-2016 15:31:06.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=GMT+08
+31-Aug-2016 15:31:06.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/data/apache-tomcat-8.0.28/endorsed
+31-Aug-2016 15:31:06.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/data/apache-tomcat-8.0.28
+31-Aug-2016 15:31:06.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/data/apache-tomcat-8.0.28
+31-Aug-2016 15:31:06.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/data/apache-tomcat-8.0.28/temp
+31-Aug-2016 15:31:06.046 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+31-Aug-2016 15:31:06.337 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-31887"]
+31-Aug-2016 15:31:06.370 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 15:31:06.374 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-31889"]
+31-Aug-2016 15:31:06.394 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 15:31:06.395 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1254 ms
+31-Aug-2016 15:31:06.438 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Aug-2016 15:31:06.438 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.28
+31-Aug-2016 15:31:13.347 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = mytest Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "500" for "maxWait" property, which is being ignored.
+31-Aug-2016 15:31:14.367 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2016 15:31:25.188 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-31887"]
+31-Aug-2016 15:31:25.202 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-31889"]
+31-Aug-2016 15:31:25.204 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 18809 ms
+31-Aug-2016 15:35:22.087 SEVERE [ajp-nio-31889-exec-1] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature 18245
+31-Aug-2016 15:35:22.143 SEVERE [ajp-nio-31889-exec-2] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature 18245
+31-Aug-2016 16:07:05.936 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '1000' did not find a matching property.
+31-Aug-2016 16:07:05.938 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'minProcessors' to '100' did not find a matching property.
+31-Aug-2016 16:07:05.939 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxProcessors' to '1000' did not find a matching property.
+31-Aug-2016 16:07:06.075 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+31-Aug-2016 16:07:06.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.28
+31-Aug-2016 16:07:06.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2015 18:25:21 UTC
+31-Aug-2016 16:07:06.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.28.0
+31-Aug-2016 16:07:06.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Aug-2016 16:07:06.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-123.el7.x86_64
+31-Aug-2016 16:07:06.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Aug-2016 16:07:06.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+31-Aug-2016 16:07:06.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b14
+31-Aug-2016 16:07:06.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Aug-2016 16:07:06.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /data/apache-tomcat-8.0.28
+31-Aug-2016 16:07:06.109 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /data/apache-tomcat-8.0.28
+31-Aug-2016 16:07:06.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/data/apache-tomcat-8.0.28/conf/logging.properties
+31-Aug-2016 16:07:06.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2016 16:07:06.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+31-Aug-2016 16:07:06.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+31-Aug-2016 16:07:06.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=512M
+31-Aug-2016 16:07:06.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512M
+31-Aug-2016 16:07:06.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=GMT+08
+31-Aug-2016 16:07:06.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/data/apache-tomcat-8.0.28/endorsed
+31-Aug-2016 16:07:06.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/data/apache-tomcat-8.0.28
+31-Aug-2016 16:07:06.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/data/apache-tomcat-8.0.28
+31-Aug-2016 16:07:06.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/data/apache-tomcat-8.0.28/temp
+31-Aug-2016 16:07:06.112 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+31-Aug-2016 16:07:06.913 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-31458"]
+31-Aug-2016 16:07:06.967 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 16:07:06.972 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-31460"]
+31-Aug-2016 16:07:06.976 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 16:07:06.977 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2113 ms
+31-Aug-2016 16:07:07.031 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Aug-2016 16:07:07.031 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.28
+31-Aug-2016 16:07:17.259 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = mytest Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "500" for "maxWait" property, which is being ignored.
+31-Aug-2016 16:07:18.287 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2016 16:07:31.322 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-31458"]
+31-Aug-2016 16:07:31.338 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-31460"]
+31-Aug-2016 16:07:31.340 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 24362 ms
+31-Aug-2016 16:36:09.310 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '1000' did not find a matching property.
+31-Aug-2016 16:36:09.314 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'minProcessors' to '100' did not find a matching property.
+31-Aug-2016 16:36:09.314 WARNING [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxProcessors' to '1000' did not find a matching property.
+31-Aug-2016 16:36:09.522 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+31-Aug-2016 16:36:09.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.28
+31-Aug-2016 16:36:09.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2015 18:25:21 UTC
+31-Aug-2016 16:36:09.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.28.0
+31-Aug-2016 16:36:09.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Aug-2016 16:36:09.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-123.el7.x86_64
+31-Aug-2016 16:36:09.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Aug-2016 16:36:09.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-7-openjdk-amd64/jre
+31-Aug-2016 16:36:09.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b14
+31-Aug-2016 16:36:09.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Aug-2016 16:36:09.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /data/apache-tomcat-8.0.28
+31-Aug-2016 16:36:09.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /data/apache-tomcat-8.0.28
+31-Aug-2016 16:36:09.553 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/data/apache-tomcat-8.0.28/conf/logging.properties
+31-Aug-2016 16:36:09.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Aug-2016 16:36:09.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024m
+31-Aug-2016 16:36:09.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+31-Aug-2016 16:36:09.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:PermSize=512M
+31-Aug-2016 16:36:09.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=512M
+31-Aug-2016 16:36:09.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=GMT+08
+31-Aug-2016 16:36:09.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/data/apache-tomcat-8.0.28/endorsed
+31-Aug-2016 16:36:09.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/data/apache-tomcat-8.0.28
+31-Aug-2016 16:36:09.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/data/apache-tomcat-8.0.28
+31-Aug-2016 16:36:09.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/data/apache-tomcat-8.0.28/temp
+31-Aug-2016 16:36:09.556 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+31-Aug-2016 16:36:10.548 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-31407"]
+31-Aug-2016 16:36:10.613 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 16:36:10.621 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-31409"]
+31-Aug-2016 16:36:10.627 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Aug-2016 16:36:10.628 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3000 ms
+31-Aug-2016 16:36:10.769 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Aug-2016 16:36:10.769 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.28
+31-Aug-2016 16:36:43.504 WARNING [localhost-startStop-1] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = mytest Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "500" for "maxWait" property, which is being ignored.
+31-Aug-2016 16:36:48.371 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Aug-2016 16:39:22.102 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,240] milliseconds.
+31-Aug-2016 16:42:16.868 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-31407"]
+31-Aug-2016 16:42:16.960 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-31409"]
+31-Aug-2016 16:42:16.987 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 366359 ms
